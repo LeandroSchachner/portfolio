@@ -75,7 +75,30 @@
     scroll-behavior: smooth;
   }
 }
-
+#carga{
+    border: 15px solid #ccc;
+    border-top-color: #FC8A73;
+    border-top-style: groove;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+  
+    position: absolute;
+    top: 0px;
+    Left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  
+    -webkit-animation: girar 1.5s linear infinite;
+    -0-animation: girar 1.5s linear infinite;
+    animation: girar 1.5s linear infinite;
+  }
+  
+  @keyframes girar {
+    from { transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+  }
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
