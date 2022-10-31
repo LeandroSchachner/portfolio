@@ -75,30 +75,7 @@
     scroll-behavior: smooth;
   }
 }
-#carga{
-    border: 15px solid rgb(37, 193, 217);
-    border-top-color: #4357a8;
-    border-top-style: groove;
-    height: 100px;
-    width: 100px;
-    border-radius: 100%;
-  
-    position: absolute;
-    top: 0px;
-    Left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-  
-    -webkit-animation: girar 1.5s linear infinite;
-    -0-animation: girar 1.5s linear infinite;
-    animation: girar 1.5s linear infinite;
-  }
-  
-  @keyframes girar {
-    from { transform: rotate(0deg);}
-    to {transform: rotate(360deg);}
-  }
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -241,7 +218,7 @@ caption {
 }
 */
 ::-webkit-search-decoration {
-  -webkit-appearance: none;
+  appearance: none;
 }
 
 ::-webkit-color-swatch-wrapper {
@@ -258,7 +235,7 @@ caption {
 
 ::-webkit-file-upload-button {
   font: inherit;
-  -webkit-appearance: button;
+  appearance: button;
 }
 
 .lead {

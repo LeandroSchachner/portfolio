@@ -1,14 +1,5 @@
-/*!
-* Start Bootstrap - Stylish Portfolio v6.0.5 (https://startbootstrap.com/theme/stylish-portfolio)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/blob/master/LICENSE)
-*/
-window.onload = function(){
-    var contenedor = document.getElementById('carga-container');
-    
-    contenedor.style.visibility = "hidden";
-    contenedor.style.opacity = '0';
-}
+
+
 window.addEventListener('DOMContentLoaded', event => {
 
     const sidebarWrapper = document.getElementById('sidebar-wrapper');
